@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire The Masquerade Character Sheet</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <header>
+        <div>
+            <h1>VAMPIRE <br>THE MASQUERADE</h1>
+        </div>
+
+        <section id="character">
+            <div class="section-content">
+                <div class="block">
+                    <ul>
+                        <li>Name: <input id="name" class="header" type="text"> </li>
+                        <li>Player: <input id="player" class="header" type="text"> </li>
+                        <li>Chronicle: <input id="chronicle" class="header" type="text"> </li>
+                    </ul>
+                </div>
+
+                <div class="block">
+                    <ul>
+                        <li>Nature: <input id="nature" class="header" type="text"> </li>
+                        <li>Demeanor: <input id="demeanor" class="header" type="text"> </li>
+                        <li>Concept: <input id="concept" class="header" type="text"> </li>
+                    </ul>
+                </div>
+
+                <div class="block">
+                    <ul>
+                        <li>Clan: <input id="clan" class="header" type="text"> </li>
+                        <li>Generation: <input id="generation" class="header" type="text"> </li>
+                        <li>Sire: <input id="sire" class="header" type="text"> </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+<main>
+<section class="attributes" id="attributes">
+    
+    <div class="section-title">
+        <h2 class="section-title">Attributes</h2>
+    </div>
+
+    <div class="attributes section-content">
+
+            <div id="physical" class="block">
+                <h3 class="physical">Physical</h3>
+                <form>
+                    <p>Strength</p>
+                    
+                    <div class="points">
+                        <input type="checkbox" name="" id="strenght" checked>
+                        <input type="checkbox" name="" id="strenght">
+                        <input type="checkbox" name="" id="strenght">
+                        <input type="checkbox" name="" id="strenght">
+                        <input type="checkbox" name="" id="strenght"> 
+                    </div>
+                </form>
+
+                <form>
+                    <p>Dexterity</p>
+
+                    <div class="points">
+                        <input type="checkbox" name="" id="dexterity" checked>
+                        <input type="checkbox" name="" id="dexterity">
+                        <input type="checkbox" name="" id="dexterity">
+                        <input type="checkbox" name="" id="dexterity">
+                        <input type="checkbox" name="" id="dexterity"> 
+                    </div>
+                </form>
+
+                <form>
+                    <p>Stamina</p>
+
+                    <div class="points">
+                        <input type="checkbox" name="" id="stamina" checked>
+                        <input type="checkbox" name="" id="stamina">
+                        <input type="checkbox" name="" id="stamina">
+                        <input type="checkbox" name="" id="stamina">
+                        <input type="checkbox" name="" id="stamina"> 
+                    </div>
+                </form>
+            </div>
+    
+
+            <div id="social" class="block">
+                <h3 class="social">Social</h3>
+                <form>
+                    <p>Charisma</p>
+                    <div class="points">
+                        <input type="checkbox" name="" id="charisma" checked>
+                        <input type="checkbox" name="" id="charisma">
+                        <input type="checkbox" name="" id="charisma">
+                        <input type="checkbox" name="" id="charisma">
+                        <input type="checkbox" name="" id="charisma">
+                    </div>
+                     
+                </form>
+
+                <form>
+                    <p>Manipulation</p>
+                    <div class="points">
+                        <input type="checkbox" name="" id="manipulation" checked>
+                        <input type="checkbox" name="" id="manipulation">
+                        <input type="checkbox" name="" id="manipulation">
+                        <input type="checkbox" name="" id="manipulation">
+                        <input type="checkbox" name="" id="manipulation"> 
+                    </div>
+                    
+                </form>
+
+                <form>
+                    <p>Appearance</p>
+                    <div class="points">
+                        <input type="checkbox" name="" id="appearance" checked>
+                        <input type="checkbox" name="" id="appearance">
+                        <input type="checkbox" name="" id="appearance">
+                        <input type="checkbox" name="" id="appearance">
+                        <input type="checkbox" name="" id="appearance">
+                    </div>
+                     
+                </form>
+            </div>
+
+            <div id="mental" class="block">
+            <h3 class="mental">Mental</h3>
+                <form>
+                    <p>Perception</p>
+                    <div class="points">
+                        <input type="checkbox" name="" id="perception" checked>
+                        <input type="checkbox" name="" id="perception">
+                        <input type="checkbox" name="" id="perception">
+                        <input type="checkbox" name="" id="perception">
+                        <input type="checkbox" name="" id="perception">
+                    </div>
+                     
+                </form>
+
+                <form>
+                    <p>Intelligence</p>
+                    <div class="points">
+                        <input type="checkbox" name="" id="intelligence" checked>
+                        <input type="checkbox" name="" id="intelligence">
+                        <input type="checkbox" name="" id="intelligence">
+                        <input type="checkbox" name="" id="intelligence">
+                        <input type="checkbox" name="" id="intelligence"> 
+                    </div>
+                    
+                </form>
+
+                <form>
+                    <p>Wits</p>
+                    <div class="points">
+                        <input type="checkbox" name="" id="wits" checked>
+                        <input type="checkbox" name="" id="wits">
+                        <input type="checkbox" name="" id="wits">
+                        <input type="checkbox" name="" id="wits">
+                        <input type="checkbox" name="" id="wits"> 
+                    </div>
+                    
+                </form>
+            </div>
+    </div>
+</section>
+    
+
+<section class="abilities" id="abilities">
+
+    <div class="section-title">
+        <h2 class="section-title">Abilities</h2>
+    </div>
+
+    <div class="abilities section-content">
+
+        <div id="talents" class="block">
+            <h3 class="talents">Talents</h3>
+            <form>
+                <p>Alertness</p>
+                
+                <div class="points">
+                    <input type="checkbox" name="" id="alertness1">
+                    <input type="checkbox" name="" id="alertness2">
+                    <input type="checkbox" name="" id="alertness3">
+                    <input type="checkbox" name="" id="alertness4">
+                    <input type="checkbox" name="" id="alertness5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Athletics</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="athletics1">
+                    <input type="checkbox" name="" id="athletics2">
+                    <input type="checkbox" name="" id="athletics3">
+                    <input type="checkbox" name="" id="athletics4">
+                    <input type="checkbox" name="" id="athletics5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Awareness</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="awareness1">
+                    <input type="checkbox" name="" id="awareness2">
+                    <input type="checkbox" name="" id="awareness3">
+                    <input type="checkbox" name="" id="awareness4">
+                    <input type="checkbox" name="" id="awareness5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Brawl</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="brawl1">
+                    <input type="checkbox" name="" id="brawl2">
+                    <input type="checkbox" name="" id="brawl3">
+                    <input type="checkbox" name="" id="brawl4">
+                    <input type="checkbox" name="" id="brawl5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Empathy</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="empathy1">
+                    <input type="checkbox" name="" id="empathy2">
+                    <input type="checkbox" name="" id="empathy3">
+                    <input type="checkbox" name="" id="empathy4">
+                    <input type="checkbox" name="" id="empathy5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Expression</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="expression1">
+                    <input type="checkbox" name="" id="expression2">
+                    <input type="checkbox" name="" id="expression3">
+                    <input type="checkbox" name="" id="expression4">
+                    <input type="checkbox" name="" id="expression5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Intimidation</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="intimidation1">
+                    <input type="checkbox" name="" id="intimidation2">
+                    <input type="checkbox" name="" id="intimidation3">
+                    <input type="checkbox" name="" id="intimidation4">
+                    <input type="checkbox" name="" id="intimidation5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Leadership</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="leadership1">
+                    <input type="checkbox" name="" id="leadership2">
+                    <input type="checkbox" name="" id="leadership3">
+                    <input type="checkbox" name="" id="leadership4">
+                    <input type="checkbox" name="" id="leadership5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Streetwise</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="streetwise1">
+                    <input type="checkbox" name="" id="streetwise2">
+                    <input type="checkbox" name="" id="streetwise3">
+                    <input type="checkbox" name="" id="streetwise4">
+                    <input type="checkbox" name="" id="streetwise5"> 
+                </div>
+            </form>
+
+            <form>
+                <p>Subterfuge</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="subterfuge1">
+                    <input type="checkbox" name="" id="subterfuge2">
+                    <input type="checkbox" name="" id="subterfuge3">
+                    <input type="checkbox" name="" id="subterfuge4">
+                    <input type="checkbox" name="" id="subterfuge5"> 
+                </div>
+            </form>
+
+            <form>
+                <input class="abilities" id="talent" type="text">
+                <div class="points">
+                    <input type="checkbox" name="" id="talent1">
+                    <input type="checkbox" name="" id="talent2">
+                    <input type="checkbox" name="" id="talent3">
+                    <input type="checkbox" name="" id="talent4">
+                    <input type="checkbox" name="" id="talent5"> 
+                </div>
+            </form>
+
+        </div>
+
+    
+
+    
+        <div id="skills" class="block">
+            <h3 class="skills">Skills</h3>
+            <form>
+                <p>Animal Ken</p>
+                
+                <div class="points">
+                    <input type="checkbox" name="" id="animalken1">
+                    <input type="checkbox" name="" id="animalken2">
+                    <input type="checkbox" name="" id="animalken3">
+                    <input type="checkbox" name="" id="animalken4">
+                    <input type="checkbox" name="" id="animalken5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Crafts</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="crafts1">
+                    <input type="checkbox" name="" id="crafts2">
+                    <input type="checkbox" name="" id="crafts3">
+                    <input type="checkbox" name="" id="crafts4">
+                    <input type="checkbox" name="" id="crafts5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Drive</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="drive1">
+                    <input type="checkbox" name="" id="drive2">
+                    <input type="checkbox" name="" id="drive3">
+                    <input type="checkbox" name="" id="drive4">
+                    <input type="checkbox" name="" id="drive5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Etiquette</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="etiquette1">
+                    <input type="checkbox" name="" id="etiquette2">
+                    <input type="checkbox" name="" id="etiquette3">
+                    <input type="checkbox" name="" id="etiquette4">
+                    <input type="checkbox" name="" id="etiquette5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Firearms</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="firearms1">
+                    <input type="checkbox" name="" id="firearms2">
+                    <input type="checkbox" name="" id="firearms3">
+                    <input type="checkbox" name="" id="firearms4">
+                    <input type="checkbox" name="" id="firearms5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Larceny</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="larceny1">
+                    <input type="checkbox" name="" id="larceny2">
+                    <input type="checkbox" name="" id="larceny3">
+                    <input type="checkbox" name="" id="larceny4">
+                    <input type="checkbox" name="" id="larceny5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Melee</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="melee1">
+                    <input type="checkbox" name="" id="melee2">
+                    <input type="checkbox" name="" id="melee3">
+                    <input type="checkbox" name="" id="melee4">
+                    <input type="checkbox" name="" id="melee5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Performance</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="performance1">
+                    <input type="checkbox" name="" id="performance2">
+                    <input type="checkbox" name="" id="performance3">
+                    <input type="checkbox" name="" id="performance4">
+                    <input type="checkbox" name="" id="performance5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Stealth</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="stealth1">
+                    <input type="checkbox" name="" id="stealth2">
+                    <input type="checkbox" name="" id="stealth3">
+                    <input type="checkbox" name="" id="stealth4">
+                    <input type="checkbox" name="" id="stealth5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Survival</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="survival1">
+                    <input type="checkbox" name="" id="survival2">
+                    <input type="checkbox" name="" id="survival3">
+                    <input type="checkbox" name="" id="survival4">
+                    <input type="checkbox" name="" id="survival5"> 
+                </div>
+            </form>
+    
+            <form>
+                <input class="abilities" id="skill" type="text">
+                <div class="points">
+                    <input type="checkbox" name="" id="ability1">
+                    <input type="checkbox" name="" id="ability2">
+                    <input type="checkbox" name="" id="ability3">
+                    <input type="checkbox" name="" id="ability4">
+                    <input type="checkbox" name="" id="ability5"> 
+                </div>
+            </form>
+    
+        </div>
+    
+    
+    
+    
+        <div id="knowledges" class="block">
+            <h3 class="knowledges">Knowledges</h3>
+            <form>
+                <p>Academics</p>
+                
+                <div class="points">
+                    <input type="checkbox" name="" id="academics1">
+                    <input type="checkbox" name="" id="academics2">
+                    <input type="checkbox" name="" id="academics3">
+                    <input type="checkbox" name="" id="academics4">
+                    <input type="checkbox" name="" id="academics5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Computer</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="computer1">
+                    <input type="checkbox" name="" id="computer2">
+                    <input type="checkbox" name="" id="computer3">
+                    <input type="checkbox" name="" id="computer4">
+                    <input type="checkbox" name="" id="computer5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Finance</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="finance1">
+                    <input type="checkbox" name="" id="finance2">
+                    <input type="checkbox" name="" id="finance3">
+                    <input type="checkbox" name="" id="finance4">
+                    <input type="checkbox" name="" id="finance5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Investigation</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="investigation1">
+                    <input type="checkbox" name="" id="investigation2">
+                    <input type="checkbox" name="" id="investigation3">
+                    <input type="checkbox" name="" id="investigation4">
+                    <input type="checkbox" name="" id="investigation5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Law</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="law1">
+                    <input type="checkbox" name="" id="law2">
+                    <input type="checkbox" name="" id="law3">
+                    <input type="checkbox" name="" id="law4">
+                    <input type="checkbox" name="" id="law5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Medicine</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="medicine1">
+                    <input type="checkbox" name="" id="medicine2">
+                    <input type="checkbox" name="" id="medicine3">
+                    <input type="checkbox" name="" id="medicine4">
+                    <input type="checkbox" name="" id="medicine5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Occult</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="occult1">
+                    <input type="checkbox" name="" id="occult2">
+                    <input type="checkbox" name="" id="occult3">
+                    <input type="checkbox" name="" id="occult4">
+                    <input type="checkbox" name="" id="occult5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Politics</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="politics1">
+                    <input type="checkbox" name="" id="politics2">
+                    <input type="checkbox" name="" id="politics3">
+                    <input type="checkbox" name="" id="politics4">
+                    <input type="checkbox" name="" id="politics5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Science</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="science1">
+                    <input type="checkbox" name="" id="science2">
+                    <input type="checkbox" name="" id="science3">
+                    <input type="checkbox" name="" id="science4">
+                    <input type="checkbox" name="" id="science5"> 
+                </div>
+            </form>
+    
+            <form>
+                <p>Technology</p>
+                <div class="points">
+                    <input type="checkbox" name="" id="technology1">
+                    <input type="checkbox" name="" id="technology2">
+                    <input type="checkbox" name="" id="technology3">
+                    <input type="checkbox" name="" id="technology4">
+                    <input type="checkbox" name="" id="technology5"> 
+                </div>
+            </form>
+    
+            <form>
+                <input class="abilities" id="knowledge" type="text">
+                <div class="points">
+                    <input type="checkbox" name="" id="knowledge1">
+                    <input type="checkbox" name="" id="knowledge2">
+                    <input type="checkbox" name="" id="knowledge3">
+                    <input type="checkbox" name="" id="knowledge4">
+                    <input type="checkbox" name="" id="knowledge5"> 
+                </div>
+            </form>
+    
+        </div>
+    
+    </div>
+</section>
+
+<section class="advantages" id="advantages">
+
+    <div class="section-title">
+        <h2 class="section-title">Advantages</h2>
+    </div>
+
+    <div class="adnvantages section-content">
+
+        <div id="disciplines" class="block">
+            <h3 class="disciplines">Disciplines</h3>
+
+            <form>
+                <ul>
+                    <li><input class="discipline" id="discipline1" type="text"></li>
+                </ul>
+
+                <div class="points">
+                    <input type="checkbox" name="" id="discipline1-1">
+                    <input type="checkbox" name="" id="discipline1-2">
+                    <input type="checkbox" name="" id="discipline1-3">
+                    <input type="checkbox" name="" id="discipline1-4">
+                    <input type="checkbox" name="" id="discipline1-5"> 
+                </div>
+                
+            </form>
+
+            <form>
+                <ul>
+                    <li><input class="discipline" id="discipline2" type="text"></li>
+                </ul>
+
+                <div class="points">
+                    <input type="checkbox" name="" id="discipline2-1">
+                    <input type="checkbox" name="" id="discipline2-2">
+                    <input type="checkbox" name="" id="discipline2-3">
+                    <input type="checkbox" name="" id="discipline2-4">
+                    <input type="checkbox" name="" id="discipline2-5"> 
+                </div>
+                
+            </form>
+
+            <form>
+                <ul>
+                    <li><input class="discipline" id="discipline3" type="text"></li>
+                </ul>
+
+                <div class="points">
+                    <input type="checkbox" name="" id="discipline3-1">
+                    <input type="checkbox" name="" id="discipline3-2">
+                    <input type="checkbox" name="" id="discipline3-3">
+                    <input type="checkbox" name="" id="discipline3-4">
+                    <input type="checkbox" name="" id="discipline3-5"> 
+                </div>
+                
+            </form>
+
+            <form>
+                <ul>
+                    <li><input class="discipline" id="discipline4" type="text"></li>
+                </ul>
+
+                <div class="points">
+                    <input type="checkbox" name="" id="discipline4-1">
+                    <input type="checkbox" name="" id="discipline4-2">
+                    <input type="checkbox" name="" id="discipline4-3">
+                    <input type="checkbox" name="" id="discipline4-4">
+                    <input type="checkbox" name="" id="discipline4-5"> 
+                </div>
+                
+            </form>
+
+            <form>
+                <ul>
+                    <li><input class="discipline" id="discipline5" type="text"></li>
+                </ul>
+
+                <div class="points">
+                    <input type="checkbox" name="" id="discipline5-1">
+                    <input type="checkbox" name="" id="discipline5-2">
+                    <input type="checkbox" name="" id="discipline5-3">
+                    <input type="checkbox" name="" id="discipline5-4">
+                    <input type="checkbox" name="" id="discipline5-5"> 
+                </div>
+                
+            </form>
+
+            <form>
+                <ul>
+                    <li><input class="discipline" id="discipline6" type="text"></li>
+                </ul>
+
+                <div class="points">
+                    <input type="checkbox" name="" id="discipline6-1">
+                    <input type="checkbox" name="" id="discipline6-2">
+                    <input type="checkbox" name="" id="discipline6-3">
+                    <input type="checkbox" name="" id="discipline6-4">
+                    <input type="checkbox" name="" id="discipline6-5"> 
+                </div>
+                
+            </form>
+
+        </div>
+
+        <div id="backgrounds" class="block">
+            <h3 class="backgrounds">Backgrounds</h3>
+        
+            <form>
+                <ul>
+                    <li><input class="background" id="background1" type="text"></li>
+                </ul>
+        
+                <div class="points">
+                    <input type="checkbox" name="" id="background1-1">
+                    <input type="checkbox" name="" id="background1-2">
+                    <input type="checkbox" name="" id="background1-3">
+                    <input type="checkbox" name="" id="background1-4">
+                    <input type="checkbox" name="" id="background1-5"> 
+                </div>
+                
+            </form>
+        
+            <form>
+                <ul>
+                    <li><input class="background" id="background2" type="text"></li>
+                </ul>
+        
+                <div class="points">
+                    <input type="checkbox" name="" id="background2-1">
+                    <input type="checkbox" name="" id="background2-2">
+                    <input type="checkbox" name="" id="background2-3">
+                    <input type="checkbox" name="" id="background2-4">
+                    <input type="checkbox" name="" id="background2-5"> 
+                </div>
+                
+            </form>
+        
+            <form>
+                <ul>
+                    <li><input class="background" id="background3" type="text"></li>
+                </ul>
+        
+                <div class="points">
+                    <input type="checkbox" name="" id="background3-1">
+                    <input type="checkbox" name="" id="background3-2">
+                    <input type="checkbox" name="" id="background3-3">
+                    <input type="checkbox" name="" id="background3-4">
+                    <input type="checkbox" name="" id="background3-5"> 
+                </div>
+                
+            </form>
+        
+            <form>
+                <ul>
+                    <li><input class="background" id="background4" type="text"></li>
+                </ul>
+        
+                <div class="points">
+                    <input type="checkbox" name="" id="background4-1">
+                    <input type="checkbox" name="" id="background4-2">
+                    <input type="checkbox" name="" id="background4-3">
+                    <input type="checkbox" name="" id="background4-4">
+                    <input type="checkbox" name="" id="background4-5"> 
+                </div>
+                
+            </form>
+        
+            <form>
+                <ul>
+                    <li><input class="background" id="background5" type="text"></li>
+                </ul>
+        
+                <div class="points">
+                    <input type="checkbox" name="" id="background5-1">
+                    <input type="checkbox" name="" id="background5-2">
+                    <input type="checkbox" name="" id="background5-3">
+                    <input type="checkbox" name="" id="background5-4">
+                    <input type="checkbox" name="" id="background5-5"> 
+                </div>
+                
+            </form>
+        
+            <form>
+                <ul>
+                    <li><input class="background" id="background6" type="text"></li>
+                </ul>
+        
+                <div class="points">
+                    <input type="checkbox" name="" id="background6-1">
+                    <input type="checkbox" name="" id="background6-2">
+                    <input type="checkbox" name="" id="background6-3">
+                    <input type="checkbox" name="" id="background6-4">
+                    <input type="checkbox" name="" id="background6-5"> 
+                </div>
+                
+            </form>
+        
+        </div>
+
+        <div id="virtues" class="block">
+            <h3 class="virtues">Virtues</h3>
+
+            
+            <form>
+                <ul>
+                    <li>
+                        <select name="virtue1" id="virtue1">
+                          <option value="conscience">Conscience</option>
+                          <option value="conviction">Conviction</option>
+                        </select>
+                    </li>
+                </ul>
+        
+                <div class="points">
+                    <input type="checkbox" name="" id="virtue1-1" checked>
+                    <input type="checkbox" name="" id="virtue1-2">
+                    <input type="checkbox" name="" id="virtue1-3">
+                    <input type="checkbox" name="" id="virtue1-4">
+                    <input type="checkbox" name="" id="virtue1-5"> 
+                </div>
+                
+            </form>
+
+            
+             <form>
+                <ul>
+                    <li>
+                        <select name="virtue2" id="virtue2">
+                            <option value="self-control">Self-Control</option>
+                            <option value="instinct">Instinct</option>
+                        </select>
+                    </li>
+                </ul>
+
+            <div class="points">
+                <input type="checkbox" name="" id="virtue2-1" checked>
+                <input type="checkbox" name="" id="virtue2-2">
+                <input type="checkbox" name="" id="virtue2-3">
+                <input type="checkbox" name="" id="virtue2-4">
+                <input type="checkbox" name="" id="virtue2-5"> 
+            </div>
+        
+            </form>
+
+            <form>
+                <ul>
+                    <li><p>Courage</p></li>
+                </ul>
+
+                <div class="points">
+                    <input type="checkbox" name="" id="virtue3-1" checked>
+                    <input type="checkbox" name="" id="virtue3-2">
+                    <input type="checkbox" name="" id="virtue3-3">
+                    <input type="checkbox" name="" id="virtue3-4">
+                    <input type="checkbox" name="" id="virtue3-5"> 
+                </div>
+        
+            </form>
+
+        </div>
+
+        
+
+    </div>
+</section>
+
+
+</main>
+
+<footer>
+    <section class="footer" id="footer">
+        <div id="merits-and-flaws" class="list">
+                
+    
+            <div class="merits" id="merits" >
+                <div class="merits-name">
+                    <p>Merit</p>
+                    <form class="merit">
+                        <ul class="merit">
+                            <li><input class="merits" id="merit1" type="text"></li>
+                            <li><input class="merits" id="merit2" type="text"></li>
+                            <li><input class="merits" id="merit3" type="text"></li>
+                            <li><input class="merits" id="merit4" type="text"></li>
+                            <li><input class="merits" id="merit5" type="text"></li>
+                        </ul>
+                    </form>
+                </div>
+
+                <div class="merits-cost">
+                    <p>Cost</p>
+                    <form class="merit-cost">
+                        <ul class="merit-cost">
+                            <li><input class="merits-cost" id="merit-cost1" type="number"></li>
+                            <li><input class="merits-cost" id="merit-cost2" type="number"></li>
+                            <li><input class="merits-cost" id="merit-cost3" type="number"></li>
+                            <li><input class="merits-cost" id="merit-cost4" type="number"></li>
+                            <li><input class="merits-cost" id="merit-cost5" type="number"></li>
+                        </ul>
+                    </form>
+                </div> 
+
+            </div>
+    
+            <div class="flaws" id="flaws" >
+                <div class="flaws-name">
+                    <p>Flaw</p>
+                    <form class="flaw">
+                        <ul class="flaw">
+                            <li><input class="flaws" id="flaw1" type="text"></li>
+                            <li><input class="flaws" id="flaw2" type="text"></li>
+                            <li><input class="flaws" id="flaw3" type="text"></li>
+                            <li><input class="flaws" id="flaw4" type="text"></li>
+                            <li><input class="flaws" id="flaw5" type="text"></li>
+                        </ul>
+                    </form>
+                </div>
+            
+                <div class="flaws-cost">
+                    <p>Cost</p>
+                    <form class="flaw-cost">
+                        <ul class="flaw-cost">
+                            <li><input class="flaws-cost" id="flaw-cost1" type="number"></li>
+                            <li><input class="flaws-cost" id="flaw-cost2" type="number"></li>
+                            <li><input class="flaws-cost" id="flaw-cost3" type="number"></li>
+                            <li><input class="flaws-cost" id="flaw-cost4" type="number"></li>
+                            <li><input class="flaws-cost" id="flaw-cost5" type="number"></li>
+                        </ul>
+                    </form>
+                </div> 
+            
+            </div>
+    
+        </div>
+
+    </section>
+    </footer>
+</body>
+</html>

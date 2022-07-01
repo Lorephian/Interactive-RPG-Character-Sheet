@@ -1,0 +1,137 @@
+/*====  RESET ============================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+  }
+  html {
+    scroll-behavior: smooth;
+    
+  }
+
+  body{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+
+h1 {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+  h2 {
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+
+  ul {
+    list-style: none;
+    ;
+  }
+
+  input.header{
+    margin-left: 20px;
+    width: 100%
+  }
+
+  input.abilities {
+    max-width: 35%;
+    width: fit-content
+  }
+
+  section{
+    margin-top: 20px;
+  }
+
+  li {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  div.section-content{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.block{
+    width: 100%
+  }
+
+  div.points {
+    display: block;
+    
+    background: blue;
+        
+  }
+
+
+
+  form {
+    
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+    margin-right: 20px;
+  }
+
+div.list{
+    background: purple;
+    
+}
+
+form.merit{
+    color: blue;
+    margin-right: 0px;
+
+}
+
+form.merit-cost{
+    margin: 0px;
+}
+
+form.flaw{
+    color: blue;
+    margin-right: 0px;
+
+}
+
+
+div#merits  {
+    background: black;
+    display: flex;
+    position: static;
+    flex-direction: row;
+    
+}
+
+div#flaws  {
+    background: black;
+    display: flex;
+    position: static;
+    flex-direction: row;
+    
+}
+
+input.merits-cost{
+    max-width: 40px;
+    
+}
+input.flaws-cost{
+    max-width: 40px;
+    
+}
+
+input.discipline {
+    max-width: 130px;
+}
+
+input.background{ 
+    max-width: 130px;
+}
